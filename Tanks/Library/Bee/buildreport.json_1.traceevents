@@ -1,0 +1,520 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680573681036824, "dur": 1088160, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573681036995, "dur": 7459, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573681044457, "dur": 30521, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573681074982, "dur": 435550, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573681510533, "dur": 602642, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573682113177, "dur": 11806, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573682125447, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1680573681381674, "dur": 100040, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681382382, "dur": 28908, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681470877, "dur": 2969, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681473849, "dur": 7860, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681474316, "dur": 6923, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681484657, "dur": 905, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680573681484098, "dur": 1481, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573682125527, "dur": 113, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680573681535289, "dur":826, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573681536122, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680573681536163, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680573681536173, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680573681536450, "dur":270, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573681536720, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101404, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101621, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101636, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101638, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101643, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101645, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101649, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101650, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101653, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101653, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101656, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101656, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101660, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101660, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101664, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101667, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101667, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101670, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101670, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101673, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101674, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101676, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101677, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101680, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101680, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101683, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101683, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101686, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101687, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101689, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101690, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101693, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101699, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682101709, "dur":959, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680573681536751, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573681536751, "dur":2337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573681539089, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680573681539666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573681546339, "dur":181274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680573681727655, "dur":32953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573681760610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573681760616, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573681763857, "dur":35774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573681799640, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573681799657, "dur":15677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573681815375, "dur":187294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573682002673, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680573682002685, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680573682005823, "dur":95583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681536843, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681536843, "dur":2221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681539064, "dur":14705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680573681553772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681553790, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680573681554880, "dur":36703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681591589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681593317, "dur":15837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681609188, "dur":71082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681680303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681680311, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681682406, "dur":114245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681796665, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681796682, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681798269, "dur":177479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681975755, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680573681975770, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680573681977400, "dur":124002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681536744, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681536745, "dur":2064, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681538813, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1680573681538843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681540186, "dur":140, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1680573681540329, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1680573681540348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681540488, "dur":14148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1680573681554640, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1680573681554891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681554898, "dur":33009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1680573681587934, "dur":11580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681599520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681599529, "dur":8325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681607880, "dur":72278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681680167, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681680184, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681681895, "dur":35279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681717183, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681717196, "dur":8721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681725955, "dur":24528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681750489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681750502, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681751679, "dur":41941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681793627, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681793638, "dur":15645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681809318, "dur":80577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681889901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681889912, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681896333, "dur":70963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681967301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680573681967311, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680573681971364, "dur":130037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681536932, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681536933, "dur":1882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681538815, "dur":13792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680573681552611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681552632, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680573681554896, "dur":125342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681680241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681680345, "dur":14365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681694750, "dur":32548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681727301, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681727312, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681729103, "dur":30635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681759743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681759750, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681761655, "dur":21105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681782765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681782775, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681783625, "dur":55488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681839123, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681839141, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681842137, "dur":105470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681947636, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680573681947692, "dur":22886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680573681970617, "dur":130788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681536781, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681536781, "dur":2306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681539087, "dur":15684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1680573681554775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681554792, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1680573681556586, "dur":124422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1680573681681011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681681015, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1680573681682663, "dur":24790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681707459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681707471, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681708227, "dur":15620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681723850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681723859, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681727591, "dur":29731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681757327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681757550, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681758941, "dur":29185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681788133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681788147, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681789174, "dur":70662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681859839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573681859847, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573681861745, "dur":139640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573682001392, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680573682001405, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680573682002312, "dur":99105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681536809, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681536810, "dur":2359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681539169, "dur":46882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1680573681586053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681586075, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1680573681586454, "dur":19964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681606421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681606427, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681609011, "dur":71272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681680308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681680316, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681682273, "dur":86398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681768675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681768686, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681770718, "dur":36820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681807543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681807589, "dur":8894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681816507, "dur":176411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681992923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680573681992936, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680573681994030, "dur":107385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681536835, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681536835, "dur":2237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681539072, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1680573681539273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681543987, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1680573681548786, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1680573681548863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681548889, "dur":190944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1680573681739864, "dur":20717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681760584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681760591, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681761867, "dur":15505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681777403, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681777457, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681779332, "dur":98828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681878167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681878180, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681879089, "dur":52802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681931899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573681931911, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573681933555, "dur":144647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573682078205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680573682078214, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680573682079225, "dur":22183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681536868, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681536869, "dur":2147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681539016, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1680573681539802, "dur":829, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681540905, "dur":45703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1680573681586626, "dur":93587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681680221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681680232, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681683135, "dur":63410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681746549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681746560, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681747441, "dur":12980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681760424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681760433, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681762161, "dur":21136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681783300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681783308, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681783893, "dur":72497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681856397, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681856411, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681857767, "dur":26792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681884566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681884577, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681885490, "dur":104657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681990155, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680573681990171, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680573681992028, "dur":109390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680573681536896, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680573681536897, "dur":2066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680573681538963, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680573681539078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680573681542675, "dur":360302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680573681903008, "dur":196136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680573682099148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680573682099155, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680573682101370, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1680573682101372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681536979, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681536980, "dur":1834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681538814, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1680573681539007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681541782, "dur":15991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1680573681557822, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1680573681557915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681558167, "dur":35523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1680573681593717, "dur":21762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681615489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681615500, "dur":66116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681681657, "dur":51004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681732670, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681732705, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681734047, "dur":13444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681747493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681747505, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681748172, "dur":18818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681766998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681767010, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681767845, "dur":19203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681787055, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681787074, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681788427, "dur":73837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681862269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573681862283, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573681864811, "dur":178884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573682043699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680573682043708, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680573682045387, "dur":56024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681537001, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681537002, "dur":1811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681538813, "dur":70673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680573681609489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681609514, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680573681612927, "dur":67321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681680251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681680259, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681681820, "dur":20290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681702118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681702131, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681702896, "dur":19859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681722759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681722852, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681723908, "dur":13160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681737072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681737080, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681738479, "dur":16291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681754777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681754790, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681756915, "dur":41123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681798044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681798056, "dur":29193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681827284, "dur":60907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681888208, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681888246, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681889704, "dur":83219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681972926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680573681972958, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680573681974464, "dur":126961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681537024, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681537025, "dur":2159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681539184, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1680573681539662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681544157, "dur":12342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1680573681556521, "dur":168780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681725307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681725318, "dur":22990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681748335, "dur":12840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681761178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681761188, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681762366, "dur":34400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681796770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681796778, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681798155, "dur":60786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681858945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681858956, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681859699, "dur":24863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681884566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681884577, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681885499, "dur":81107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681966615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680573681966629, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680573681970855, "dur":130549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681537050, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681537050, "dur":2174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681539224, "dur":4487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1680573681543714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681543830, "dur":9176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1680573681554833, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1680573681554900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681554905, "dur":19918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1680573681574847, "dur":9703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681584554, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681585555, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681585959, "dur":10521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681596485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681596557, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681597161, "dur":8950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681606118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681606127, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681607120, "dur":73147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681680271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681680311, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681682434, "dur":12726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681695163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681695172, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681695970, "dur":26519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681722494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681722505, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681723399, "dur":16692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681740096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681740109, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681740924, "dur":76450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681817380, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681817413, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681821035, "dur":115362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681936406, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681936419, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680573681938922, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1680573681938949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681938999, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1680573681942466, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681942496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681942506, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681945454, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681945508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681945524, "dur":5931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681951535, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1680573681951700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681951712, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1680573681953318, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1680573681954528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681954542, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1680573681955577, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681955611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681955620, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681956719, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681956746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681956754, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681957607, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681957634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681957642, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1680573681958513, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1680573681958538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681958544, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1680573681959306, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681959497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681959518, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1680573681961296, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1680573681961328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681961338, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1680573681962235, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1680573681962331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680573681962340, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1680573681962984, "dur":138423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681537080, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681537080, "dur":2017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681539099, "dur":7482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1680573681546585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681546792, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1680573681557122, "dur":28056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks.exe" }}
+,{ "pid":12345, "tid":14, "ts":1680573681585181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681585187, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks.exe" }}
+,{ "pid":12345, "tid":14, "ts":1680573681586357, "dur":26757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681613132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681613142, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681613846, "dur":66377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681680228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681680237, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681681817, "dur":11411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681693235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681693246, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681694079, "dur":10678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681704762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681704792, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681705531, "dur":11422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681716967, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681716990, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681718077, "dur":27771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681745855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681745870, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681746793, "dur":12890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681759689, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681759738, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681761508, "dur":19583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681781098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681781113, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681782028, "dur":32817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681814853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681814865, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681816025, "dur":120081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681936132, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681936185, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681937864, "dur":34324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681972194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680573681972207, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680573681972885, "dur":128514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681537096, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681537096, "dur":1715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681538814, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1680573681539171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681543563, "dur":14793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1680573681558397, "dur":55980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681614380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681614390, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681615068, "dur":65188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681680260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681680268, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681682764, "dur":28948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681711719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681711730, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681712738, "dur":13039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681725782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681725792, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681726693, "dur":28142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681754873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681754883, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681756350, "dur":25744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681782098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681782110, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681782968, "dur":23817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681806795, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681806815, "dur":8573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681815908, "dur":50975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681866918, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573681866930, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573681868122, "dur":156392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573682024535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680573682024544, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680573682026125, "dur":75287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681537114, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681537114, "dur":1696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681538814, "dur":141423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1680573681680241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681680536, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1680573681681372, "dur":11857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681693235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681693246, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681694057, "dur":27437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681721510, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681721531, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681722584, "dur":14397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681736990, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681737010, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681738551, "dur":21359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681759914, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681759924, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681761553, "dur":96204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681857762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681857775, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681859684, "dur":103900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681963595, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680573681963614, "dur":10213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mitch/Documents/AIE/Builds/tankBuildTest/Tanks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680573681973857, "dur":127562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680573682103572, "dur":998, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680573682125667, "dur": 367, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680573682125436, "dur": 607, "ph": "X", "name": "Write chrome-trace events", "args": {} },
